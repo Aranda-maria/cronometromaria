@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.timer {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+.controls button:focus {
+  outline: none;
+}
+
+.partials {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.partials ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.partials li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
